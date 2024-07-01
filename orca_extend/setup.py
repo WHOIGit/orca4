@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'example_node = orca_extend.example_node:main'
+            'qr_code_detector = orca_extend.qr_code_detector:main'
         ],
     },
 )
